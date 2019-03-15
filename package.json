@@ -1,6 +1,6 @@
 {
   "name": "thaottp",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Make my resume as an NPM package",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "license": "UNLICENSED",
   "homepage": "https://github.com/ttpthao/cv-npm-package#readme",
   "bin": {
-    "ttpthao": "./index.js"
+    "thaottp": "./index.js"
   },
   "bugs": {
     "url": "https://github.com/ttpthao/cv-npm-package/issues"

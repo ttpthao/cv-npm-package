@@ -1,5 +1,4 @@
-
-// #!/usr/bin/env node
+#!/usr/bin/env node
 "use strict";
 
 var inquirer = require("inquirer");
@@ -17,7 +16,7 @@ var resumePrompts = {
 };
 
 function main() {
-  console.log("Hello,My name is Thao and welcome to my resume");
+  console.log("Hello, My name is Thao and welcome to my resume");
   resumeHandler();
 }
 
@@ -38,10 +37,10 @@ function resumeHandler() {
         type: "list",
         name: "exitBack",
         message: "Go back or Exit?",
-        choices: ["Back", "Exit"]
+        choices: ["Go Back", "Exit"]
       })
       .then(choice => {
-        if (choice.exitBack == "Back") {
+        if (choice.exitBack === "Go Back") {
           resumeHandler();
         } else {
           return;
