@@ -1,0 +1,27 @@
+{
+    "name": "thaotran",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "chalk": "^2.4.2",
+      "inquirer": "^6.2.2"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ttpthao/cv-npm-package.git"
+    },
+    "keywords": [
+      "resume",
+      "thaotran"
+    ],
+    "author": "thaotran",
+    "license": "thaotran",
+    "homepage": "https://github.com/ttpthao/cv-npm-package#readme",
+    "bin": {
+      "ttpthao": "./index.js"
+    }
+  }
