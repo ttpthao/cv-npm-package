@@ -31,7 +31,6 @@ function resumeHandler() {
       console.log(response("|   => " + info));
     });
     console.log(response("--------------------------------------"));
-    // console.log(resume[`${option}`]);
     inquirer
       .prompt({
         type: "list",
